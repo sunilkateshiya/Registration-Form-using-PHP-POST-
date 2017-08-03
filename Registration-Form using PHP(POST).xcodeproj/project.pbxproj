@@ -12,9 +12,11 @@
 		8BCE78261F33199E00C27B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE78241F33199E00C27B73 /* Main.storyboard */; };
 		8BCE78281F33199E00C27B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE78271F33199E00C27B73 /* Assets.xcassets */; };
 		8BCE782B1F33199E00C27B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE78291F33199E00C27B73 /* LaunchScreen.storyboard */; };
+		C37AD2C0C8688AF24F493E57 /* Pods_Registration_Form_using_PHP_POST_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2F4CF5EFD7B1F4682DC8C4 /* Pods_Registration_Form_using_PHP_POST_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2982D4C215BD63F2B953B3BD /* Pods-Registration-Form using PHP(POST).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registration-Form using PHP(POST).release.xcconfig"; path = "Pods/Target Support Files/Pods-Registration-Form using PHP(POST)/Pods-Registration-Form using PHP(POST).release.xcconfig"; sourceTree = "<group>"; };
 		8BCE781D1F33199E00C27B73 /* Registration-Form using PHP(POST).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Registration-Form using PHP(POST).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCE78201F33199E00C27B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BCE78221F33199E00C27B73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		8BCE78271F33199E00C27B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCE782A1F33199E00C27B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BCE782C1F33199E00C27B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2F4CF5EFD7B1F4682DC8C4 /* Pods_Registration_Form_using_PHP_POST_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Registration_Form_using_PHP_POST_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB62E817D616B2664E3485B4 /* Pods-Registration-Form using PHP(POST).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registration-Form using PHP(POST).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Registration-Form using PHP(POST)/Pods-Registration-Form using PHP(POST).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37AD2C0C8688AF24F493E57 /* Pods_Registration_Form_using_PHP_POST_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039C29931724D3F9880BE493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC2F4CF5EFD7B1F4682DC8C4 /* Pods_Registration_Form_using_PHP_POST_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BCE78141F33199C00C27B73 = {
 			isa = PBXGroup;
 			children = (
 				8BCE781F1F33199E00C27B73 /* Registration-Form using PHP(POST) */,
 				8BCE781E1F33199E00C27B73 /* Products */,
+				E6DE93A399749F89E5D3F833 /* Pods */,
+				039C29931724D3F9880BE493 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = "Registration-Form using PHP(POST)";
 			sourceTree = "<group>";
 		};
+		E6DE93A399749F89E5D3F833 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB62E817D616B2664E3485B4 /* Pods-Registration-Form using PHP(POST).debug.xcconfig */,
+				2982D4C215BD63F2B953B3BD /* Pods-Registration-Form using PHP(POST).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BCE782F1F33199E00C27B73 /* Build configuration list for PBXNativeTarget "Registration-Form using PHP(POST)" */;
 			buildPhases = (
+				80A8C437DF430388EC5DDCCF /* [CP] Check Pods Manifest.lock */,
 				8BCE78191F33199C00C27B73 /* Sources */,
 				8BCE781A1F33199C00C27B73 /* Frameworks */,
 				8BCE781B1F33199C00C27B73 /* Resources */,
+				57AD32304A3BD3A70D273607 /* [CP] Embed Pods Frameworks */,
+				309403D7FB3E020855F7822D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309403D7FB3E020855F7822D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Registration-Form using PHP(POST)/Pods-Registration-Form using PHP(POST)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57AD32304A3BD3A70D273607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Registration-Form using PHP(POST)/Pods-Registration-Form using PHP(POST)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A8C437DF430388EC5DDCCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BCE78191F33199C00C27B73 /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		8BCE78301F33199E00C27B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB62E817D616B2664E3485B4 /* Pods-Registration-Form using PHP(POST).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Registration-Form using PHP(POST)/Info.plist";
@@ -268,6 +344,7 @@
 		};
 		8BCE78311F33199E00C27B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2982D4C215BD63F2B953B3BD /* Pods-Registration-Form using PHP(POST).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Registration-Form using PHP(POST)/Info.plist";

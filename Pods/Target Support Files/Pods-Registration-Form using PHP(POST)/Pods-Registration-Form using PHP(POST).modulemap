@@ -1,0 +1,6 @@
+framework module Pods_Registration_Form_using_PHP_POST_ {
+  umbrella header "Pods-Registration-Form using PHP(POST)-umbrella.h"
+
+  export *
+  module * { export * }
+}
